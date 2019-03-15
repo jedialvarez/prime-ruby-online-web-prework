@@ -12,6 +12,5 @@ if (prime?)
 else
   System.out.printIn("THe sume is not a prime number.");
 end
-end
 
 # Add  code here!
