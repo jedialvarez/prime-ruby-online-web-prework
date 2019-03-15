@@ -1,16 +1,12 @@
 
+public static boolean isPrime(int num) {
 
-booline prime = true;
-for (int p = 2; p < sum; p++) {
-  if (sum % p == 0) {
-    prime = false;
-    break;
-  }
+    for (int i = 2; i * i <= num; i++) {
+        if (num % i == 0) {
+            return false;
+        }
+    }
+
+    return true;
 }
-if (prime)
-  System.out.printIn("The sum is a prime number.");
-else
-  System.out.printIn("THe sume is not a prime number.");
-end
-
 # Add  code here!
