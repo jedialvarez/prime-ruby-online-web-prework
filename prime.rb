@@ -1,6 +1,9 @@
 def prime?(num)
-  return false if num <= 1
-  Math.sqrt(num).to_i.downto(2).each {|i| return false if num % i == 0}
-  true
-end
-# Add  code here!
+    if num <= 0 || num == 1
+      return false
+    else
+      (2..num-1).to_a.all? do |possible_factor|
+        num % possible_factor != 0
+      end
+    end
+      # Add  code here!
