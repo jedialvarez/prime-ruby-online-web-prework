@@ -10,9 +10,9 @@
  public static void main(String []args){
     ...
     System.out.println("sum is "+ sum);
-    if (isPrime(sum)) 
+    if (isPrime(sum))
         System.out.println("The sum is a prime number.");
-    else 
+    else
         System.out.println("The sum is not a prime number.");
  }
 # Add  code here!
